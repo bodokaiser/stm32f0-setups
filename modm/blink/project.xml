@@ -1,0 +1,15 @@
+<library>
+  <repositories>
+    <!-- path to modm repository -->
+    <repository>
+      <path>../modm/repo.lb</path>
+    </repository>
+  </repositories>
+  <extends>modm:disco-f072rb</extends>
+  <options>
+    <option name="modm:build:build.path">build/</option>
+  </options>
+  <modules>
+    <module>modm:build:scons</module>
+  </modules>
+</library>
